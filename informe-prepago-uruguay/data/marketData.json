@@ -1,0 +1,42 @@
+{
+  "uruguayMarket": {
+    "totalMobileUsers": 4400000,
+    "prepaidUsers": 1850000,
+    "prepaidPercentage": 42,
+    "marketSizeUSD": 180000000,
+    "yoyGrowth": -2.3,
+    "avgARPU": 8.1,
+    "operatorShares": [
+      {"name": "Antel", "share": 46, "color": "#003087"},
+      {"name": "Movistar", "share": 28, "color": "#019DF4"},
+      {"name": "Claro", "share": 26, "color": "#DA291C"}
+    ]
+  },
+  "trends": [
+    {"id": "digitalization", "title": "Digitalización de recargas", "icon": "Smartphone", "impact": "high", "direction": "up", "description": "Billeteras y apps bancarias ganan share: +12.5 pp YoY."},
+    {"id": "dataGrowth", "title": "Explosión de datos", "icon": "TrendingUp", "impact": "high", "direction": "up", "description": "Consumo prepago de datos crece 30% anual impulsado por video corto y gaming."},
+    {"id": "priceSensitivity", "title": "Alta sensibilidad a precio", "icon": "Tag", "impact": "medium", "direction": "flat", "description": "Promociones semanales definen elección; flexibilidad y rollover valorados."},
+    {"id": "loyaltyGap", "title": "Vacío en fidelización", "icon": "Star", "impact": "high", "direction": "up", "description": "No existen programas de puntos o status relevantes para prepago."}
+  ],
+  "historicalData": [
+    {"year": 2020, "prepaidUsers": 2100000, "arpu": 9.2, "dataConsumption": 2.1},
+    {"year": 2021, "prepaidUsers": 2000000, "arpu": 8.8, "dataConsumption": 3.2},
+    {"year": 2022, "prepaidUsers": 1930000, "arpu": 8.5, "dataConsumption": 4.5},
+    {"year": 2023, "prepaidUsers": 1880000, "arpu": 8.3, "dataConsumption": 5.9},
+    {"year": 2024, "prepaidUsers": 1850000, "arpu": 8.1, "dataConsumption": 7.1}
+  ],
+  "latamPrepaid": [
+    {"year": 2020, "penetration": 56},
+    {"year": 2021, "penetration": 54},
+    {"year": 2022, "penetration": 52},
+    {"year": 2023, "penetration": 51},
+    {"year": 2024, "penetration": 50}
+  ],
+  "voiceVsData": [
+    {"year": 2020, "voice": 55, "data": 45},
+    {"year": 2021, "voice": 48, "data": 52},
+    {"year": 2022, "voice": 42, "data": 58},
+    {"year": 2023, "voice": 36, "data": 64},
+    {"year": 2024, "voice": 30, "data": 70}
+  ]
+}

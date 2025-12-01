@@ -1,0 +1,136 @@
+{
+  "countries": [
+    {
+      "id": "guatemala",
+      "name": "Guatemala",
+      "flag": "🇬🇹",
+      "prepaidMarketShare": 52,
+      "position": 1,
+      "totalOperators": 3,
+      "prepaidUsers": 12500000,
+      "arpu": 5.2,
+      "bestPractices": [
+        {"category": "Producto", "practice": "Paquetes 'Tigo Music' con Spotify incluido", "impact": "Alto"},
+        {"category": "Recarga", "practice": "Red de 45,000+ puntos de recarga", "impact": "Alto"},
+        {"category": "Loyalty", "practice": "Programa 'Tigo Rewards' con gamificación", "impact": "Medio"}
+      ],
+      "replicabilityScore": 4,
+      "keyLearning": "Dominio a través de distribución masiva y paquetes de contenido"
+    },
+    {
+      "id": "colombia",
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "prepaidMarketShare": 46,
+      "position": 2,
+      "totalOperators": 4,
+      "prepaidUsers": 18000000,
+      "arpu": 3.9,
+      "bestPractices": [
+        {"category": "Digital", "practice": "App Mi Tigo con autogestión completa y referidos", "impact": "Alto"},
+        {"category": "Producto", "practice": "Paquetes de apps ilimitadas (WhatsApp/Instagram)", "impact": "Medio"},
+        {"category": "Loyalty", "practice": "Misiones y badges para acumulación de megas", "impact": "Medio"}
+      ],
+      "replicabilityScore": 5,
+      "keyLearning": "Digital-first aumenta NPS y reduce costos de atención"
+    },
+    {
+      "id": "bolivia",
+      "name": "Bolivia",
+      "flag": "🇧🇴",
+      "prepaidMarketShare": 49,
+      "position": 1,
+      "totalOperators": 3,
+      "prepaidUsers": 7800000,
+      "arpu": 4.1,
+      "bestPractices": [
+        {"category": "Finanzas", "practice": "Tigo Money como principal canal de recarga", "impact": "Alto"},
+        {"category": "Distribución", "practice": "Motorizados propios para abastecer puntos", "impact": "Medio"},
+        {"category": "Loyalty", "practice": "Cashback por uso de billetera", "impact": "Medio"}
+      ],
+      "replicabilityScore": 4,
+      "keyLearning": "Ecosistema fintech impulsa recurrencia y ticket promedio"
+    },
+    {
+      "id": "paraguay",
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "prepaidMarketShare": 55,
+      "position": 1,
+      "totalOperators": 3,
+      "prepaidUsers": 5200000,
+      "arpu": 4.3,
+      "bestPractices": [
+        {"category": "Distribución", "practice": "Red propia + aliados rurales para cobertura nacional", "impact": "Alto"},
+        {"category": "Producto", "practice": "Planes combinados con voz ilimitada y data social", "impact": "Medio"}
+      ],
+      "replicabilityScore": 3,
+      "keyLearning": "Cobertura y capilaridad como defensas clave"
+    },
+    {
+      "id": "honduras",
+      "name": "Honduras",
+      "flag": "🇭🇳",
+      "prepaidMarketShare": 53,
+      "position": 1,
+      "totalOperators": 3,
+      "prepaidUsers": 5200000,
+      "arpu": 3.5,
+      "bestPractices": [
+        {"category": "Promoción", "practice": "Campañas agresivas de doble saldo y data nocturna", "impact": "Alto"},
+        {"category": "Cobranza", "practice": "Recarga vía agentes en 100% de municipios", "impact": "Alto"}
+      ],
+      "replicabilityScore": 3,
+      "keyLearning": "Incentivos tácticos pueden sostener share en mercados price-driven"
+    },
+    {
+      "id": "el-salvador",
+      "name": "El Salvador",
+      "flag": "🇸🇻",
+      "prepaidMarketShare": 51,
+      "position": 1,
+      "totalOperators": 4,
+      "prepaidUsers": 5600000,
+      "arpu": 4.0,
+      "bestPractices": [
+        {"category": "Segmentación", "practice": "Portafolio youth con gaming y redes ilimitadas", "impact": "Alto"},
+        {"category": "Lealtad", "practice": "Programa de puntos canjeables en comercios aliados", "impact": "Medio"}
+      ],
+      "replicabilityScore": 4,
+      "keyLearning": "Beneficios aspiracionales elevan preferencia aun con alto churn estructural"
+    }
+  ],
+  "consolidatedBestPractices": [
+    {"category": "Producto", "practices": ["Apps ilimitadas", "Noches libres de data", "Bundles de música/video"], "topCountry": "Colombia"},
+    {"category": "Pricing", "practices": ["Doble saldo táctico", "Rollover", "Add-ons flexibles"], "topCountry": "Guatemala"},
+    {"category": "Digital", "practices": ["App full self-care", "Referidos digitales", "Analytics para microsegmentos"], "topCountry": "Colombia"},
+    {"category": "Finanzas", "practices": ["Billetera Tigo Money", "Cashback por recarga digital"], "topCountry": "Bolivia"},
+    {"category": "Loyalty", "practices": ["Gamificación", "Status y misiones"], "topCountry": "El Salvador"}
+  ],
+  "successCases": [
+    {
+      "title": "Tigo Money Bolivia - Ecosistema de Recarga",
+      "country": "Bolivia",
+      "challenge": "Baja bancarización y dependencia de efectivo en recargas.",
+      "solution": "Expandir cash-in/out en tiendas de barrio y ofrecer cashback por uso de billetera.",
+      "results": ["+18% frecuencia de recarga", "+12% ARPU digital", "Reducción de costos de distribución"],
+      "applicabilityUY": "Alta"
+    },
+    {
+      "title": "Programa Tigo Rewards Colombia",
+      "country": "Colombia",
+      "challenge": "Churn alto en segmentos jóvenes por agresividad competitiva.",
+      "solution": "Gamificación con retos semanales y canje de datos por engagement en app.",
+      "results": ["+8 p.p. NPS", "-1.2 p.p. churn mensual", "+15% MAU app"],
+      "applicabilityUY": "Media-Alta"
+    },
+    {
+      "title": "Distribución Motorizada Paraguay",
+      "country": "Paraguay",
+      "challenge": "Cobertura desigual de puntos de recarga en interior.",
+      "solution": "Logística propia con abastecimiento móvil y terminales portátiles.",
+      "results": ["+10 p.p. presencia en interior", "+7% ventas de paquetes", "Mejora de top-of-mind"],
+      "applicabilityUY": "Media"
+    }
+  ]
+}

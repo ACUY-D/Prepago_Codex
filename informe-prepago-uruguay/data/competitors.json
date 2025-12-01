@@ -1,0 +1,72 @@
+{
+  "competitors": [
+    {
+      "id": "claro",
+      "name": "Claro Uruguay",
+      "parentCompany": "América Móvil",
+      "color": "#DA291C",
+      "marketSharePrepaid": 26,
+      "positioning": "Value leader con distribución masiva",
+      "scores": {
+        "brandStrength": 7,
+        "coverage": 7,
+        "priceValue": 8,
+        "digitalExperience": 6,
+        "distribution": 9,
+        "innovation": 5,
+        "customerService": 6,
+        "loyalty": 5
+      },
+      "prepaidOffering": {
+        "mainPlans": ["Paquetes Ilimitados app", "Bolsa redes sociales", "Datos nocturnos"],
+        "pricing": {"weekly": 120, "monthly": 350},
+        "promotions": ["Doble saldo fines de semana", "WhatsApp ilimitado"]
+      },
+      "strengths": ["Red de recarga más amplia", "Precios agresivos en datos", "Presencia de marca sólida"],
+      "weaknesses": ["Experiencia digital media", "Atención al cliente percibida como lenta"],
+      "threatsToUs": ["Capacidad de bajar precios rápidamente", "Alianzas exclusivas de contenido"],
+      "opportunitiesVsThem": ["Mejor UX en app", "Loyalty diferenciado", "Bundles con fintech"]
+    },
+    {
+      "id": "antel",
+      "name": "Antel",
+      "parentCompany": "Estado Uruguayo",
+      "color": "#003087",
+      "marketSharePrepaid": 46,
+      "positioning": "Cobertura nacional y confianza",
+      "scores": {
+        "brandStrength": 8,
+        "coverage": 9,
+        "priceValue": 6,
+        "digitalExperience": 6,
+        "distribution": 7,
+        "innovation": 5,
+        "customerService": 7,
+        "loyalty": 6
+      },
+      "prepaidOffering": {
+        "mainPlans": ["Internet Antel Prepago", "Bolsa de datos diarias", "Minutos nacionales"],
+        "pricing": {"weekly": 140, "monthly": 400},
+        "promotions": ["Bonos por recarga en app", "Data social incluida"]
+      },
+      "strengths": ["Cobertura líder", "Confianza de marca", "Capilaridad de sucursales"],
+      "weaknesses": ["Precio percibido más alto", "Innovación lenta"],
+      "threatsToUs": ["Inversión de red en 5G", "Poder regulatorio"],
+      "opportunitiesVsThem": ["Agilidad comercial", "Portafolio youth", "Beneficios Tigo regionales"]
+    }
+  ],
+  "comparisonMatrix": [
+    {"dimension": "Cobertura percibida", "weight": 5, "movistar": 4, "claro": 4, "antel": 5},
+    {"dimension": "Relación precio-valor", "weight": 5, "movistar": 3, "claro": 4, "antel": 3},
+    {"dimension": "Experiencia digital", "weight": 4, "movistar": 3, "claro": 3, "antel": 3},
+    {"dimension": "Distribución recarga", "weight": 4, "movistar": 3, "claro": 5, "antel": 4},
+    {"dimension": "Innovación producto", "weight": 3, "movistar": 3, "claro": 4, "antel": 3},
+    {"dimension": "Lealtad", "weight": 3, "movistar": 2, "claro": 3, "antel": 3}
+  ],
+  "marketGaps": [
+    {"gap": "Paquetes para gaming", "currentCoverage": "Ninguno", "opportunity": "Alta", "targetSegment": "Jóvenes"},
+    {"gap": "Loyalty program robusto", "currentCoverage": "Débil todos", "opportunity": "Alta", "targetSegment": "Todos"},
+    {"gap": "Recarga digital incentivada", "currentCoverage": "Medio", "opportunity": "Alta", "targetSegment": "Digital"},
+    {"gap": "Ofertas regionales", "currentCoverage": "Ninguno", "opportunity": "Media", "targetSegment": "Migrantes"}
+  ]
+}

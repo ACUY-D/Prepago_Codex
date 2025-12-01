@@ -1,0 +1,93 @@
+{
+  "segments": [
+    {
+      "id": "digital-youth",
+      "name": "Jóvenes Digitales",
+      "emoji": "📱",
+      "description": "18-28 años, heavy users de datos, redes sociales y streaming",
+      "marketShare": 25,
+      "arpuIndex": 1.2,
+      "rechargeFrequency": 3.5,
+      "avgRechargeAmount": 150,
+      "primaryUse": "Datos",
+      "mainDriver": "Precio de datos",
+      "opportunity": "Alta",
+      "recommendedStrategy": "Paquetes de datos ilimitados para apps específicas",
+      "characteristics": ["Sensibles al precio", "Alta propensión digital", "Bajo loyalty"],
+      "painPoints": ["Paquetes expiran rápido", "Falta de rollover"],
+      "channels": {"digital": 70, "physical": 30}
+    },
+    {
+      "id": "value-seekers",
+      "name": "Buscadores de valor",
+      "emoji": "💰",
+      "description": "25-45 años, buscan equilibrio precio/beneficio, usan combos semanales",
+      "marketShare": 32,
+      "arpuIndex": 1.0,
+      "rechargeFrequency": 2.8,
+      "avgRechargeAmount": 180,
+      "primaryUse": "Mixto",
+      "mainDriver": "Promos y paquetes flexibles",
+      "opportunity": "Media",
+      "recommendedStrategy": "Bundles con rollover y minutos on-net ilimitados",
+      "characteristics": ["Valoran promociones", "Sensibles a cobertura", "Usan apps bancarias"],
+      "painPoints": ["Cobertura variable en interior", "Recargas presenciales consumen tiempo"],
+      "channels": {"digital": 55, "physical": 45}
+    },
+    {
+      "id": "rural-basic",
+      "name": "Conectados del interior",
+      "emoji": "🌾",
+      "description": "Usuarios en ciudades pequeñas, consumo moderado de voz y WhatsApp",
+      "marketShare": 18,
+      "arpuIndex": 0.7,
+      "rechargeFrequency": 2.0,
+      "avgRechargeAmount": 120,
+      "primaryUse": "Voz/WhatsApp",
+      "mainDriver": "Cobertura y disponibilidad de recarga",
+      "opportunity": "Media",
+      "recommendedStrategy": "Bonos de voz y distribución móvil con aliados locales",
+      "characteristics": ["Alta lealtad a puntos de venta", "Bajo uso de apps", "Precios sensibles"],
+      "painPoints": ["Pocas opciones de recarga digital", "Cobertura en rutas"],
+      "channels": {"digital": 25, "physical": 75}
+    },
+    {
+      "id": "migrants",
+      "name": "Migrantes y remesas",
+      "emoji": "✈️",
+      "description": "Residentes regionales que priorizan llamadas y apps sociales internacionales",
+      "marketShare": 10,
+      "arpuIndex": 0.9,
+      "rechargeFrequency": 2.6,
+      "avgRechargeAmount": 160,
+      "primaryUse": "Voz internacional",
+      "mainDriver": "Tarifas internacionales y roaming",
+      "opportunity": "Alta",
+      "recommendedStrategy": "Paquetes ILD y remesas cruzadas con Tigo Money",
+      "characteristics": ["Recargan con frecuencia", "Usan redes de cobranza", "Valor de comunidad"],
+      "painPoints": ["Costo de ILD", "Pocas promociones específicas"],
+      "channels": {"digital": 40, "physical": 60}
+    }
+  ],
+  "decisionFactors": [
+    {"factor": "Precio/Valor", "importance": 5, "movistar": 3, "claro": 4, "antel": 3},
+    {"factor": "Cobertura", "importance": 4, "movistar": 4, "claro": 4, "antel": 5},
+    {"factor": "Facilidad de recarga", "importance": 4, "movistar": 3, "claro": 4, "antel": 4},
+    {"factor": "Beneficios digitales", "importance": 4, "movistar": 3, "claro": 4, "antel": 3},
+    {"factor": "Atención al cliente", "importance": 3, "movistar": 3, "claro": 3, "antel": 4}
+  ],
+  "rechargeChannels": [
+    {"channel": "Kioscos/Almacenes", "percentage": 35, "trend": -5},
+    {"channel": "Redes de cobranza", "percentage": 27, "trend": -2},
+    {"channel": "App operador", "percentage": 18, "trend": 15},
+    {"channel": "Bancos/Billeteras", "percentage": 12, "trend": 20},
+    {"channel": "USSD", "percentage": 8, "trend": -8}
+  ],
+  "journey": [
+    {"stage": "Descubrimiento", "touchpoints": ["Referidos", "Redes sociales", "Tiendas"], "painPoints": ["Oferta confusa", "Beneficios poco claros"], "opportunities": ["Simplificar mensajes", "Destacar diferenciadores"]},
+    {"stage": "Adquisición", "touchpoints": ["Puntos de venta", "E-commerce", "Activaciones calle"], "painPoints": ["Disponibilidad de SIM", "Registro lento"], "opportunities": ["Stock en aliados", "Activación 100% digital"]},
+    {"stage": "Recarga", "touchpoints": ["Kioscos", "Apps", "Bancos"], "painPoints": ["Falta de medios digitales", "Costos adicionales"], "opportunities": ["Cash-in Tigo Money", "Bonos por digital"]},
+    {"stage": "Uso", "touchpoints": ["Datos", "Voz", "Apps"], "painPoints": ["Paquetes expiran", "Cobertura en interior"], "opportunities": ["Rollover", "Refuerzo de red"]},
+    {"stage": "Lealtad", "touchpoints": ["Beneficios", "Soporte", "Comunidad"], "painPoints": ["Sin programa de puntos", "Poca personalización"], "opportunities": ["Loyalty prepago", "Ofertas segmentadas"]}
+  ]
+}

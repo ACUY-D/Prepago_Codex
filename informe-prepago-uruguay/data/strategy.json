@@ -1,0 +1,89 @@
+{
+  "vision": "Ser el operador prepago más valorado de Uruguay, combinando la potencia digital de Tigo con la marca Movistar.",
+  "strategicObjectives": [
+    {"objective": "Crecer base usuarios", "metric": "Usuarios activos", "current": 520000, "target12m": 580000, "target24m": 650000},
+    {"objective": "Aumentar ARPU", "metric": "USD/mes", "current": 7.8, "target12m": 9.0, "target24m": 10.5},
+    {"objective": "Reducir churn", "metric": "% mensual", "current": 3.5, "target12m": 3.0, "target24m": 2.6},
+    {"objective": "Digitalizar recargas", "metric": "% digital", "current": 32, "target12m": 45, "target24m": 55}
+  ],
+  "positioningOptions": [
+    {
+      "id": 1,
+      "title": "El Líder en Datos",
+      "statement": "Movistar: Más datos, más libertad",
+      "targetSegment": "Jóvenes digitales",
+      "reasonToBelieve": "Red 4G sólida, acuerdos de contenidos y mejores prácticas Tigo",
+      "proofPoints": ["Apps ilimitadas", "Data nocturna", "Cobertura urbana"],
+      "risks": ["Guerra de precios", "Percepción de red en interior"],
+      "recommended": true
+    },
+    {
+      "id": 2,
+      "title": "Prepago Inteligente",
+      "statement": "Todo desde tu app: compra, gana y ahorra",
+      "targetSegment": "Buscadores de valor",
+      "reasonToBelieve": "App renovada con referidos y loyalty",
+      "proofPoints": ["Cashback digital", "Misiones y badges", "Atención en app"],
+      "risks": ["Adopción digital lenta"],
+      "recommended": true
+    },
+    {
+      "id": 3,
+      "title": "La red confiable",
+      "statement": "Cobertura donde importa, beneficios transparentes",
+      "targetSegment": "Interior y familias",
+      "reasonToBelieve": "Refuerzo de red y bundles de voz",
+      "proofPoints": ["Mejoras en rutas", "Voz ilimitada on-net"],
+      "risks": ["Antel responde rápido"],
+      "recommended": false
+    }
+  ],
+  "pillars": [
+    {
+      "id": "acquisition",
+      "name": "Adquisición",
+      "icon": "UserPlus",
+      "objective": "+15% nuevos usuarios en 12 meses",
+      "initiatives": [
+        {"id": "acq-1", "title": "Portafolio youth con apps ilimitadas", "description": "Planes con data ilimitada en redes y gaming + rollover.", "impact": 5, "effort": 3, "timeline": "Q1", "investment": 50000},
+        {"id": "acq-2", "title": "Push de portabilidad digital", "description": "Proceso 100% online con delivery de SIM y bono de bienvenida.", "impact": 4, "effort": 2, "timeline": "Q2", "investment": 30000}
+      ]
+    },
+    {
+      "id": "recurrence",
+      "name": "Recurrencia",
+      "icon": "RefreshCw",
+      "objective": "+20% frecuencia de recarga",
+      "initiatives": [
+        {"id": "rec-1", "title": "Bonos progresivos por recarga digital", "description": "Cashback y megas adicionales por recurrencia.", "impact": 4, "effort": 2, "timeline": "Q1", "investment": 25000},
+        {"id": "rec-2", "title": "Integración Tigo Money Uruguay", "description": "Cash-in/out con red de cobranza y bancos aliados.", "impact": 4, "effort": 3, "timeline": "Q3", "investment": 60000}
+      ]
+    },
+    {
+      "id": "monetization",
+      "name": "Monetización",
+      "icon": "TrendingUp",
+      "objective": "+1.5 USD de ARPU en 18 meses",
+      "initiatives": [
+        {"id": "arpu-1", "title": "Upsell de add-ons premium", "description": "Streaming, gaming y seguros móviles.", "impact": 4, "effort": 3, "timeline": "Q2", "investment": 40000},
+        {"id": "arpu-2", "title": "Bundles familiares", "description": "Combos con data compartida y control parental.", "impact": 3, "effort": 2, "timeline": "Q3", "investment": 30000}
+      ]
+    },
+    {
+      "id": "retention",
+      "name": "Retención",
+      "icon": "Shield",
+      "objective": "Reducir churn a 2.6%",
+      "initiatives": [
+        {"id": "ret-1", "title": "Programa Prepago+", "description": "Loyalty con status, misiones y beneficios de partners.", "impact": 4, "effort": 3, "timeline": "Q1", "investment": 35000},
+        {"id": "ret-2", "title": "Algoritmo de propensión", "description": "Ofertas personalizadas y salvataje antes del churn.", "impact": 4, "effort": 3, "timeline": "Q2", "investment": 45000}
+      ]
+    }
+  ],
+  "prioritizationMatrix": {
+    "highImpactLowEffort": ["acq-1", "rec-1", "ret-2"],
+    "highImpactHighEffort": ["rec-2", "arpu-1"],
+    "lowImpactLowEffort": ["acq-2"],
+    "lowImpactHighEffort": []
+  }
+}
