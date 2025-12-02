@@ -1,0 +1,33 @@
+{
+  "currentKPIs": {
+    "prepaidUsers": 520000,
+    "marketShare": 28,
+    "arpu": 7.8,
+    "monthlyChurn": 3.5,
+    "rechargeFrequency": 2.1,
+    "avgRechargeAmount": 180,
+    "digitalRechargeShare": 32,
+    "nps": 28
+  },
+  "swot": {
+    "strengths": ["Reconocimiento de marca Movistar", "Red 4G robusta en Montevideo", "Portafolio postpago sólido"],
+    "weaknesses": ["Menor capilaridad de recarga física", "Experiencia de app mejorable", "Poca diferenciación prepago"],
+    "opportunities": ["Integración con mejores prácticas Tigo", "Loyalty prepago sin competir", "Expansión de recarga digital"],
+    "threats": ["Promociones agresivas de Claro", "Poder regulatorio y tarifas de interconexión", "Antel refuerza 5G"]
+  },
+  "areaDiagnostics": [
+    {"area": "Producto/Oferta", "maturityScore": 3, "currentState": "Portafolio tradicional, sin apps ilimitadas ni rollover.", "gaps": ["Falta de propuestas youth", "Rollover y add-ons"], "priority": "high"},
+    {"area": "Distribución/Recarga", "maturityScore": 3, "currentState": "Dependencia de kioscos y redes de cobranza.", "gaps": ["Baja penetración de recarga digital", "Pocos convenios con bancos"], "priority": "high"},
+    {"area": "Experiencia Digital", "maturityScore": 2, "currentState": "App con autogestión básica; bajas calificaciones.", "gaps": ["UX/UI", "Referidos y gamificación"], "priority": "high"},
+    {"area": "Marketing/Segmentación", "maturityScore": 3, "currentState": "Campañas masivas con baja personalización.", "gaps": ["Segmentación avanzada", "Bundles por tribu"], "priority": "medium"},
+    {"area": "Red y Servicio", "maturityScore": 4, "currentState": "Cobertura fuerte urbana; mejoras en interior en curso.", "gaps": ["Refuerzo en rutas", "Comunicación de calidad"], "priority": "medium"}
+  ],
+  "tigoOpportunity": {
+    "benefits": [
+      {"title": "Best practices prepago", "description": "Paquetes de apps ilimitadas, data nocturna y rollover implementables rápido.", "impact": "Alto"},
+      {"title": "Plataformas tecnológicas", "description": "Stack digital Tigo (app, referidos, rewards) listo para reutilizar.", "impact": "Alto"},
+      {"title": "Fintech Tigo Money", "description": "Cashback y cash-in/out para acelerar recargas digitales.", "impact": "Alto"}
+    ],
+    "synergies": ["Economías de escala en compras de terminales", "Negociación regional de contenidos", "Modelo operativo comercial Tigo"]
+  }
+}

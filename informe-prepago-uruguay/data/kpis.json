@@ -1,0 +1,25 @@
+{
+  "marketKPIs": [
+    {"id": "totalPrepaidUsers", "title": "Usuarios Prepago UY", "value": 1850000, "unit": "usuarios", "trend": -2.3, "period": "YoY"},
+    {"id": "marketSize", "title": "Tamaño Mercado", "value": 180, "unit": "M USD", "trend": 1.5, "period": "YoY"},
+    {"id": "avgARPU", "title": "ARPU Promedio", "value": 8.1, "unit": "USD/mes", "trend": -0.8, "period": "YoY"},
+    {"id": "prepaidShare", "title": "% Prepago vs Total", "value": 42, "unit": "%", "trend": -3.1, "period": "YoY"},
+    {"id": "digitalRecharge", "title": "Recarga Digital", "value": 38, "unit": "%", "trend": 12.5, "period": "YoY"},
+    {"id": "avgChurn", "title": "Churn Mensual", "value": 3.2, "unit": "%", "trend": 0.4, "period": "YoY"}
+  ],
+  "keyFindings": [
+    {"type": "insight", "title": "Distribución digital acelera", "description": "Las recargas digitales ya representan 38% (+12.5 pp YoY) impulsadas por billeteras y bancos."},
+    {"type": "warning", "title": "Presión competitiva en precio", "description": "Claro lidera ofertas agresivas en datos con bundles de apps; Movistar pierde share en jóvenes digitales."},
+    {"type": "opportunity", "title": "Espacio para lealtad y gaming", "description": "Ningún operador tiene propuesta robusta de loyalty ni paquetes específicos para gaming/esports."}
+  ],
+  "topRecommendations": [
+    {"priority": 1, "title": "Reposicionar como líder en datos", "description": "Lanzar portafolio joven con datos ilimitados por app, rollover y add-ons nocturnos.", "impact": "Alto", "effort": "Medio"},
+    {"priority": 2, "title": "Escalar recarga digital y Tigo Money", "description": "Bonificar primeras 3 recargas digitales y habilitar cash-in en red de cobranza.", "impact": "Alto", "effort": "Bajo"},
+    {"priority": 3, "title": "Programa de fidelidad prepago", "description": "Crear 'Programa Prepago+' con misiones, status y beneficios en comercios aliados.", "impact": "Medio", "effort": "Medio"}
+  ],
+  "expectedImpact": [
+    {"metric": "Usuarios activos", "current": 520000, "target": 650000, "timeline": "24 meses"},
+    {"metric": "ARPU prepago", "current": 7.8, "target": 10.5, "timeline": "24 meses"},
+    {"metric": "Churn mensual", "current": 3.5, "target": 2.6, "timeline": "18 meses"}
+  ]
+}

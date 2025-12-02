@@ -1,0 +1,102 @@
+{
+  "roadmap": {
+    "Q1-2025": {
+      "acquisition": ["acq-1", "acq-2"],
+      "recurrence": ["rec-1"],
+      "arpu": [],
+      "retention": ["ret-1", "ret-2"]
+    },
+    "Q2-2025": {
+      "acquisition": ["acq-2"],
+      "recurrence": ["rec-2"],
+      "arpu": ["arpu-1"],
+      "retention": ["ret-2"]
+    },
+    "Q3-2025": {
+      "acquisition": [],
+      "recurrence": ["rec-2"],
+      "arpu": ["arpu-2"],
+      "retention": ["ret-1"]
+    },
+    "Q4-2025": {
+      "acquisition": ["acq-1"],
+      "recurrence": ["rec-1"],
+      "arpu": ["arpu-1"],
+      "retention": ["ret-2"]
+    }
+  },
+  "quickWins": [
+    {"id": "qw-1", "title": "Bonos de bienvenida digital", "description": "3 recargas digitales con 20% extra.", "responsible": "Marketing", "investment": 5000, "kpi": "Recarga digital", "target": "+5 pp", "deadline": "2025-01-31"},
+    {"id": "qw-2", "title": "Refuerzo de stock SIM", "description": "Reabastecer 500 puntos clave en interior.", "responsible": "Ventas", "investment": 7000, "kpi": "Ventas SIM", "target": "+10%", "deadline": "2025-02-15"},
+    {"id": "qw-3", "title": "Campaña referidos", "description": "Referidos con 5GB por alta", "responsible": "Digital", "investment": 6000, "kpi": "Altas digitales", "target": "3k altas", "deadline": "2025-02-28"}
+  ],
+  "detailedInitiatives": {
+    "Q1": [
+      {
+        "id": "acq-1",
+        "title": "Portafolio youth con apps ilimitadas",
+        "description": "Paquetes para redes y gaming con rollover y data nocturna.",
+        "scope": "Prepago nacional",
+        "responsible": "Marketing Producto",
+        "team": ["Producto", "Ingeniería", "Finanzas"],
+        "budget": 50000,
+        "timeline": {
+          "start": "2025-01-15",
+          "end": "2025-03-31",
+          "milestones": ["Diseño de oferta", "Negociación de contenidos", "Lanzamiento comercial"]
+        },
+        "dependencies": ["Acuerdos de contenidos", "Capacidad de red"],
+        "risks": ["Respuesta de competidores", "Tiempos regulatorios"],
+        "kpis": ["Altas prepago", "Participación segmento joven"]
+      },
+      {
+        "id": "rec-1",
+        "title": "Bonos progresivos por recarga digital",
+        "description": "Cashback y megas escalables según recurrencia mensual.",
+        "scope": "App Movistar y Tigo Money",
+        "responsible": "Digital",
+        "team": ["BI", "Finanzas", "Producto"],
+        "budget": 25000,
+        "timeline": {
+          "start": "2025-01-10",
+          "end": "2025-03-15",
+          "milestones": ["Definición de mecánica", "Integración app", "Campaña de lanzamiento"]
+        },
+        "dependencies": ["Soporte de sistemas de recarga", "Aprobación legal"],
+        "risks": ["Costos promocionales altos", "Fuga de beneficios"],
+        "kpis": ["Frecuencia de recarga", "% digital"]
+      },
+      {
+        "id": "ret-1",
+        "title": "Programa Prepago+",
+        "description": "Loyalty con misiones y partners.",
+        "scope": "Todo el país",
+        "responsible": "CX",
+        "team": ["Marketing", "Data", "Partners"],
+        "budget": 35000,
+        "timeline": {
+          "start": "2025-02-01",
+          "end": "2025-03-31",
+          "milestones": ["Diseño de mecánica", "Integración en app", "Campaña de adopción"]
+        },
+        "dependencies": ["Integración app", "Negociación de partners"],
+        "risks": ["Baja adopción", "Costos de beneficios"],
+        "kpis": ["NPS", "Churn mensual"]
+      }
+    ]
+  },
+  "budget": {
+    "byPillar": {
+      "acquisition": {"Q1": 50000, "Q2": 40000, "Q3": 30000, "Q4": 45000},
+      "recurrence": {"Q1": 30000, "Q2": 25000, "Q3": 20000, "Q4": 25000},
+      "arpu": {"Q1": 0, "Q2": 40000, "Q3": 30000, "Q4": 40000},
+      "retention": {"Q1": 35000, "Q2": 45000, "Q3": 30000, "Q4": 40000}
+    },
+    "total": 450000
+  },
+  "governance": {
+    "weeklyReview": "Reunión de performance por pilar con squad owners.",
+    "monthlyCommittee": "Comité ejecutivo con VP Operaciones y Finanzas.",
+    "reportFormat": "Dashboard digital + one-pager de decisiones"
+  }
+}
